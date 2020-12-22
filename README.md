@@ -64,7 +64,7 @@ In your components template:
 | Prop            | Type (Range)          | Default | Required |
 |-----------------|-----------------------|---------|----------|
 | isStartPrint    | Boolean               |         | `true`   |
-| qrCodeId        | String                |         | `false`  |
+| qrCodeId        | String                |         | `true`   |
 | isShowQrCodeId  | Boolean               | `false` | `false`  |
 | headerSvg       | String                |         | `false`  |
 | logoSvg         | String                |         | `false`  |

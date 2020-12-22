@@ -45,7 +45,7 @@ export default {
     },
     qrCodeId: {
       type: String,
-      required: false,
+      required: true,
       default: '',
     },
     title: {
