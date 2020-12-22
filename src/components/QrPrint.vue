@@ -152,7 +152,7 @@ export default {
                 writing-mode: vertical-lr;
                 transform: rotate(180deg);
                 vertical-align: top;
-                padding-right: 5px;
+                padding-right: 0.5em;
               }
                .qr-wrapper.s {
                padding: 15px 28px;
@@ -173,7 +173,7 @@ export default {
               }
                span.qr-code-id.s {
                 height: 5cm;
-                padding-right: 2px;
+                padding-right: 1em;
               }
                .qr-wrapper.m {
                padding: 30px 56px;
@@ -264,7 +264,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style>
 .qr-print {
   position: fixed;
   z-index: 9999;
