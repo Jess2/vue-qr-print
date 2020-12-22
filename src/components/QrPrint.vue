@@ -5,7 +5,7 @@
       <h1 v-if="title" :class="qrSize">{{ title }}</h1>
       <p v-if="subtitle" :class="qrSize">{{ subtitle }}</p>
       <div class="qr-code-wrapper" :class="qrSize">
-        <vue-qr-code :value="qrCodeId" :margin="0" errorCorrectionLevel="H" class="qr-code"></vue-qr-code>
+        <vue-qrcode :value="qrCodeId" :margin="0" errorCorrectionLevel="H" class="qr-code"></vue-qrcode>
         <div class="qr-logo" v-if="logoSvg" v-html="logoSvg"></div>
       </div>
       <span v-if="isShowQrCodeId" class="qr-code-id" :class="qrSize">
@@ -19,6 +19,7 @@
 </template>
 
 <script>
+import VueQrcode from 'vue-qrcode';
 export default {
   name: 'QrPrint',
   props: {
@@ -260,7 +261,9 @@ export default {
       this.$emit('endPrint');
     }
   },
-  components: {}
+  components: {
+    VueQrcode
+  }
 }
 </script>
 
