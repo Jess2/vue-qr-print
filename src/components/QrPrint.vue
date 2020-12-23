@@ -130,9 +130,6 @@ export default {
                right: -10px;
               }
                h1 {
-               white-space: nowrap;
-               overflow: hidden;
-               text-overflow: ellipsis;
                margin: 0;
                text-align: left;
                word-break: break-word;
