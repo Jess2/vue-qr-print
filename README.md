@@ -1,5 +1,9 @@
 # vue-qr-print
 
+
+[![Software License](https://img.shields.io/badge/license-MIT-yellow.svg?style=flat-square)](https://github.com/JESS2/vue-qr-print/blob/main/LICENSE.md) [![Latest Version on NPM](https://img.shields.io/npm/v/vue-qr-print.svg?style=flat-square)](https://npmjs.com/package/vue-qr-print) [![npm](https://img.shields.io/npm/dt/vue-qr-print.svg?style=flat-square)](https://www.npmjs.com/package/vue-qr-print)
+
+
 ## Installation
 Using NPM:
 ```bash
