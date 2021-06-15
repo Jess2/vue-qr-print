@@ -27,6 +27,7 @@ In your components template:
     ...
     <qr-print :isStartPrint="isStartPrint"
               :qrCodeId="qrCodeId"
+              :qrCodeIdText="qrCodeIdText"
               :isShowQrCodeId="true"
               :headerSvg="qrHeaderSvg"
               :logoSvg="qrLogoSvg"
@@ -69,6 +70,7 @@ In your components template:
 |-----------------|-----------------------|---------|----------|
 | isStartPrint    | Boolean               |         | `true`   |
 | qrCodeId        | String                |         | `true`   |
+| qrCodeIdText    | String                |         | `false`  |
 | isShowQrCodeId  | Boolean               | `false` | `false`  |
 | headerSvg       | String                |         | `false`  |
 | logoSvg         | String                |         | `false`  |
