@@ -152,7 +152,7 @@ export default {
                 display: inline-block;
                 position: relative;
                 word-break: break-word;
-                writing-mode: vertical-lr;
+                writing-mode: vertical-rl;
                 transform: rotate(180deg);
                 vertical-align: top;
                 padding-right: 0.5em;
