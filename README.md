@@ -38,6 +38,7 @@ In your components template:
       return {
         isStartPrint: false,
         qrCodeId: 'qrId',
+        qrCodeIdText: 'qrIdText',
         qrHeaderSvg: '<svg>...</svg>',
         qrLogoSvg: '<svg>...</svg>',
         qrSize: 's',
